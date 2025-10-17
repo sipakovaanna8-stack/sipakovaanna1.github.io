@@ -4,6 +4,78 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Резюме — Сипакова Анна</title>
+
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+      background-color: #fafafa;
+      color: #333;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      border-radius: 10px;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: #2c3e50;
+    }
+
+    /* ——— Стили из задания ——— */
+    .rackham-underline {
+      font-size: 14px;
+      color: green;
+      font-family: Arial, sans-serif;
+      text-decoration: underline;
+    }
+
+    .cicero-bold {
+      font-size: 16px;
+      color: red;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+    }
+
+    .rackham-italic {
+      font-size: 14px;
+      color: green;
+      font-family: Arial, sans-serif;
+      font-style: italic;
+    }
+
+    /* Абзацы с отступом (5 пробелов) */
+    .indented {
+      white-space: pre;
+    }
+
+    /* Отдельные блоки */
+    .block {
+      margin: 20px 0;
+      padding: 15px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      background-color: #fff;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
   <!-- Заголовок страницы -->
@@ -15,30 +87,69 @@
 
   <!-- Обо мне -->
   <h2>Обо мне</h2>
-  <p>Учусь на дизайнера костюма, сценическим образом и современными тенденциями в моде. Участвую в учебных и творческих проектах.</p>
+  <p>Учусь на дизайнера костюма, занимаюсь сценическим образом и современными тенденциями моды.</p>
 
   <!-- Навыки -->
   <h3>Навыки</h3>
-  <ul>
-    <li>Эскизирование и разработка костюмов</li>
-    <li>История моды и костюма</li>
-    <li>Работа с тканями и материалами</li>
-    <li>Adobe Photoshop, Illustrator</li>
-  </ul>
+  <p>     Эскизирование и разработка костюмов, знание истории моды и костюма, работа с тканями и материалами, владение Adobe Photoshop и Illustrator.</p>
 
   <!-- Образование -->
   <h4>Образование</h4>
-  <p>Южный федеральный университет — Дизайн костюма (3 курс, 2022–2026)</p>
+  <p>Южный федеральный университет — Дизайн костюма (3 курс, 2022–2026).</p>
 
   <!-- Проекты -->
   <h5>Проекты</h5>
-  <ul>
-    <li>Образ из коллекции этнической одежды "Вьетнам"</li>
-    <li>Образ из коллекции одежды "Связанные незнакомцы"</li>
-  </ul>
+  <p class="indented">     Образ из коллекции этнической одежды "Вьетнам".</p>
+  <p class="indented">     Образ из коллекции "Связанные незнакомцы".</p>
+
+  <!-- Дополнительные заголовки с требуемыми стилями -->
+  <h3 class="rackham-underline">Творческие достижения</h3>
+  <p class="indented">     Участие в университетских показах и выставках, создание сценических костюмов для театральных постановок.</p>
+
+  <h3 class="cicero-bold">Дополнительное образование</h3>
+  <p class="indented">     Онлайн-курсы по 3D-моделированию одежды и фэшн-иллюстрации.</p>
+
+  <h3 class="rackham-italic">Интересы и хобби</h3>
+  <p class="indented">     Мода, история костюма, театральное искусство, графический дизайн.</p>
+
+  <!-- Списки в отдельных блоках -->
+  <div class="block">
+    <h3>Раскрывающийся список</h3>
+    <details>
+      <summary>Моя учебная группа</summary>
+      <ul>
+        <li>Сипакова Анна</li>
+        <li>Иванова Мария</li>
+        <li>Петров Дмитрий</li>
+      </ul>
+    </details>
+  </div>
+
+  <div class="block">
+    <h3>Нумерованный список</h3>
+    <ol>
+      <li>Сипакова Анна</li>
+      <li>Иванова Мария</li>
+      <li>Петров Дмитрий</li>
+    </ol>
+  </div>
+
+  <div class="block">
+    <h3>Маркированный список</h3>
+    <ul>
+      <li>Сипакова Анна</li>
+      <li>Иванова Мария</li>
+      <li>Петров Дмитрий</li>
+    </ul>
+  </div>
 
   <!-- Контакты -->
   <h6>Контакты</h6>
-  <p>Email: sipakovaanna8@gmail.com</p>
+  <p>Email: <a href="mailto:sipakovaanna8@gmail.com">sipakovaanna8@gmail.com</a></p>
+
+  <!-- Ссылка на поисковую систему -->
+  <footer>
+    <p>Перейти к поиску: <a href="https://www.google.com" target="_blank">Google</a></p>
+  </footer>
 </body>
 </html>
